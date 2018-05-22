@@ -449,3 +449,5 @@ if (WITH_USB_BACKEND AND CMAKE_SYSTEM_NAME MATCHES "^Linux")
 endif()
 
 configure_file(iio-config.h.cmakein ${CMAKE_CURRENT_BINARY_DIR}/iio-config.h @ONLY)
+
+add_subdirectory(examples)
